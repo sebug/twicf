@@ -1,4 +1,6 @@
-﻿var builder = WebApplication.CreateBuilder();
+﻿using LanguageLearn.Services.Contract;
+
+var builder = WebApplication.CreateBuilder();
 
 builder.Services.AddServiceModelServices();
 builder.Services.AddServiceModelMetadata();
